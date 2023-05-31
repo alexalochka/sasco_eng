@@ -2,23 +2,10 @@
   box-sizing: border-box;
 }
 
-
-.background { 
-  background-image: url("../images/1p_quotes.png");
-  background-repeat: no-repeat;
-  background-position: 1263px 68px;
-  background-size: 174px;
-  position: relative;
-}
-
 body {
   max-width: 1588px;
   margin: 0 auto;
 }
-
-/* border-radius: 50 -100%; */
-
-
 
 
 /* HEADER */
@@ -130,8 +117,9 @@ nav {
   color: #8efefe;
 }
 
-/* General style */
 
+
+/* General style */
 
 a {
   text-decoration: none;
@@ -156,7 +144,7 @@ h4 {
   font-family: 'Neo Sans Pro';
   font-weight: 300;
   font-style: italic;
-  width: 218px;
+  width: 216px;
   hyphens: auto;
 }
 
@@ -167,7 +155,6 @@ h3 {
 h4 {
   font-size: 24px;
 }
-
 
 .photo_config {
   display: block;
@@ -180,7 +167,6 @@ h4 {
   justify-content: center;
 }
 
-
 .margin_centre {
   margin: 0 auto;
 }
@@ -190,18 +176,13 @@ h4 {
   gap: 50px;
 }
 
-
-
 .wrap_positon {
   margin-top: 40px;
 }
 
-
 .last_column_padding {
   padding-left: 30px;
 }
-
-
 
 .responsive_img {
   display: block;
@@ -211,12 +192,11 @@ h4 {
 .margin_tables {
   margin-left: 26px;
   margin-right: 12px;
-
 }
 
 
-/* Article config */
 
+/* Article config */
 
 .main_title {
   background-color: #4DA6A5;
@@ -232,7 +212,6 @@ h4 {
 
 .main_title_b {
   font-size: 50px;
-  /* line-height: 60px; */
   color: white;
 }
 
@@ -241,7 +220,6 @@ h4 {
   font-weight: 300;
   font-style: normal;
   font-size: 50px;
-  /* line-height: 58px; */
   color: white;
 }
 
@@ -252,7 +230,6 @@ h4 {
 
 .wrap {
   display: flex;
-  /* flex-wrap: wrap; */ 
   position: relative;
 }
 
@@ -268,18 +245,25 @@ h4 {
   hyphens: auto;
 }
 
-
 .block_between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 
 
 
 /* Home page */
+
+.background_one {
+  background-image: url("../images/1p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1274px 72px;
+  background-size: 174px;
+  position: relative;
+}
+
 .first_image{
   border-top-right-radius: 500%;
   border-bottom-right-radius: 500%;
@@ -288,30 +272,25 @@ h4 {
 
 .position_overlap {
   position: relative;
-  /* top: 90px;
-  right: 79px; */
 }
 
 .title {
   width: 500px;
-  /* margin-left: auto; */
-  /* margin-right: 42px; */
   font-family: 'Neo Sans Pro';
   font-weight: 300;
   font-style: italic;
   font-size: 32px;
   line-height: 37px;
   box-sizing: border-box;
-      position: absolute;
-        right: 0;
-        top: 100px;
+  position: absolute;
+  right: 0;
+  top: 100px;
 }
 
 .introduction {
 font-family: 'Neo Sans Pro';
 font-weight: 500;
 font-style: italic;
-/* font-style: normal; */
 font-size: 18px;
 color: #4DA6A5;
 width: 180px;
@@ -319,8 +298,8 @@ margin-left: 48px;
 margin-right: 0px;
 box-sizing: border-box;
 padding-top: 282px;
-/* margin-top: 840px; */
 }
+
 
 
 /* 2 page - History */
@@ -334,6 +313,13 @@ padding-top: 282px;
 
 /* Page 3 - Chairman’s Foreword */
 
+.background_three {
+  background-image: url("../images/3p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1322px 602px;
+  background-size: 140px;
+  position: relative;
+}
 
 .h3_position_three {
   margin-top: 0px;
@@ -346,7 +332,6 @@ padding-top: 282px;
   hyphens: auto;
 }
 
-
 .chair_bold_sentence {
   color: #4DA6A5;
 }
@@ -355,15 +340,35 @@ padding-top: 282px;
 
 /* Page 4 - Managing Director’s Message */
 
+.background_four {
+  background-image: url("../images/4p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1322px 456px;
+  background-size: 140px;
+  position: relative;
+}
+
 .subtitle_four {
   color: #8cb93b;
   width: 218px;
   hyphens: auto;
 }
 
+.no_hyphens {
+  hyphens: none;
+}
+
 
 
 /* Page 5 - CEO’s Statement */
+
+.background_five {
+  background-image: url("../images/5p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1314px 612px;
+  background-size: 140px;
+  position: relative;
+}
 
 .subtitle_five {
   color: #ce3d2f;
@@ -372,10 +377,7 @@ padding-top: 282px;
 
 
 
-
-
 /* Page 6 - SASCO Strategic Plan */
-
 
 .title_six {
   font-size: 21px;
@@ -396,6 +398,14 @@ padding-top: 282px;
 
 /* Page 7 - CFO: The Year in Review */
 
+.background_seven {
+  background-image: url("../images/7p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1312px 272px;
+  background-size: 140px;
+  position: relative;
+}
+
 .subtitle_seven {
   color: #8cb93b;
 }
@@ -410,6 +420,7 @@ padding-top: 282px;
 
 
 /* Page 10 - CFO: The Year in Review (continued) */
+
 .padd_top_tenth {
   padding-top: 40px;
 }
@@ -418,9 +429,9 @@ padding-top: 282px;
 
 
 /* Page 11 - CFO: The Year in Review (continued) */
-.last_image_config {
-  margin:38px 0px auto 46px;
 
+.last_image_config {
+  margin: 38px 0px auto 46px;
 }
 
 .last_title_config {
@@ -430,6 +441,7 @@ padding-top: 282px;
 
 
 /* Footer */
+
 footer {
   display: flex;
   justify-content: space-evenly;
