@@ -1,0 +1,772 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1588px;
+  margin: 0 auto;
+}
+
+
+
+.wrapper {
+  /* overflow: hidden; */
+}
+
+
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.logo_position {
+  margin-right: 150px;
+}
+
+.header_sasco_credo,
+.header_content {
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header_sasco_credo {
+  font-size: 16px;
+  line-height: 16px;
+  color: #4faba8;
+  margin-left: 10px;
+}
+
+.header_content {
+  font-size: 12px;
+  color: #55575b;
+  padding-right: 4px;
+}
+
+.header_text_saudi {
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  color: #55575b;
+  font-size: 12px;
+  width: auto;
+}
+
+.header_text_profile {
+  font-family: 'Neo Sans Pro';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: #55575b;
+  margin-right: 250px;
+}
+
+button {
+  border: none;
+  background: none;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 32px;
+  right: -1px;
+  visibility: hidden;
+  background-color: #55575b;
+  z-index: 9;
+  width: 288px;
+  text-align: left;
+  padding: 20px;
+}
+
+.menu_button {
+  border: 1px solid transparent;
+  padding: 8px;
+}
+
+.menu_button:HOVER nav {
+  visibility: visible;
+}
+
+.menu_button:HOVER {
+  border: 1px solid #55575b;
+}
+
+.navigation_links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation_links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 20px;
+  display: block;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.navigation_links a:HOVER {
+  color: #8efefe;
+}
+
+
+
+/* General style */
+
+a {
+  text-decoration: none;
+}
+
+b {
+  font-family: 'Neo Sans Pro';
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  width: 216px;
+  font-size: 14px;
+}
+
+h3,
+h4 {
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: italic;
+  width: 216px;
+  hyphens: auto;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.margin_center {
+  margin: 0 auto;
+}
+
+.wrap_images_center {
+  justify-content: center;
+  gap: 50px;
+}
+
+.last_column_padding {
+  padding-left: 30px;
+}
+
+.responsive_img {
+  display: block;
+  max-width: 100%;
+}
+
+.margin_tables {
+  margin-left: 26px;
+  margin-right: 12px;
+}
+
+
+
+/* Article config */
+
+.photo_config {
+  display: block;
+  margin-right: 20px;
+  max-width: 100%;
+}
+
+.main_title {
+  background-color: #4DA6A5;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-radius: 82px 0 0 82px;
+  margin-left: 24px;
+  padding-left: 32px;
+  margin-bottom: 70px;
+}
+
+.main_title_b {
+  font-size: 50px;
+  color: white;
+}
+
+.main_title_l {
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+
+.main_title_size {
+  font-size: 24px;
+}
+
+.wrap {
+  display: flex;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+
+.columns {
+  -webkit-columns: 200px 3;
+  -webkit-column-gap: 20px;
+  -moz-columns: 200px 3;
+  -moz-column-gap: 20px;  
+  columns: 200px 3;
+  column-gap: 20px;
+}
+
+.article {
+  width: 218px;
+  hyphens: auto;
+}
+
+.block_between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h3_position {
+  margin-top: 0px;
+  margin-bottom: 92px;
+}
+
+
+
+/* Home page */
+
+.background_one {
+  background-image: url("../images/1p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1274px 72px;
+  background-size: 174px;
+  position: relative;
+}
+
+.first_image{
+  border-top-right-radius: 500%;
+  border-bottom-right-radius: 500%;
+  position: relative;
+}
+
+.position_overlap {
+  position: relative;
+}
+
+.title {
+  width: 500px;
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 37px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.introduction {
+  font-family: 'Neo Sans Pro';
+  font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+  color: #4DA6A5;
+  width: 180px;
+  margin-left: 48px;
+  margin-right: 0px;
+  box-sizing: border-box;
+  padding-top: 282px;
+}
+
+
+
+/* 2 page - History */
+
+.history_title {
+  visibility: hidden;
+}
+
+
+
+
+/* Page 3 - Chairman’s Foreword */
+
+.background_three {
+  background-image: url("../images/3p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1322px 602px;
+  background-size: 140px;
+  position: relative;
+}
+
+.img_position_three {
+  padding-top: 30px;
+}
+
+.subtitle_three {
+  color: #f7d74a;
+  width: 218px;
+  hyphens: auto;
+}
+
+.chair_bold_sentence {
+  color: #4DA6A5;
+}
+
+
+
+/* Page 4 - Managing Director’s Message */
+
+.background_four {
+  background-image: url("../images/4p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1322px 456px;
+  background-size: 140px;
+  position: relative;
+}
+
+.img_position_four {
+  padding-top: 32px;
+}
+
+.subtitle_four {
+  color: #8cb93b;
+  width: 218px;
+  hyphens: auto;
+}
+
+.no_hyphens {
+  hyphens: none;
+}
+
+
+
+/* Page 5 - CEO’s Statement */
+
+.background_five {
+  background-image: url("../images/5p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1314px 612px;
+  background-size: 140px;
+  position: relative;
+}
+
+.img_position_five {
+  padding-top: 56px;
+}
+
+.subtitle_five {
+  color: #ce3d2f;
+}
+
+
+
+
+/* Page 6 - SASCO Strategic Plan */
+
+.title_six {
+  font-size: 21px;
+  width: 190px;
+  line-height: 26px;
+}
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+.section_margin_six {
+  margin: 20px 10px auto 16px;
+  justify-content: center;
+}
+        
+
+
+
+
+/* Page 7 - CFO: The Year in Review */
+
+.background_seven {
+  background-image: url("../images/7p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1312px 272px;
+  background-size: 140px;
+  position: relative;
+}
+
+.h3_cfo {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.subtitle_seven {
+  color: #8cb93b;
+}
+
+.mohammed_img {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.section_margin_seven {
+  margin: 20px 10px auto 16px;
+  justify-content: center;
+}
+
+
+
+
+/* Page 10 - CFO: The Year in Review (continued) */
+
+.padd_top_tenth {
+  padding-top: 40px;
+}
+
+
+
+
+/* Page 11 - CFO: The Year in Review (continued) */
+
+.last_image_config {
+  margin: 38px 0px auto 46px;
+}
+
+.last_title_config {
+  margin-bottom: 0px;
+}
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  color: #55575b;
+  align-items: center;
+  margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------- Responsive------------------------------ */
+
+@media all and (max-width: 1224px) {
+
+/* General style */
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .columns {
+    -webkit-columns: 200px 2;
+    -webkit-column-gap: 20px;
+    -moz-columns: 200px 2;
+    -moz-column-gap: 20px;
+    columns: 200px 2;
+    column-gap: 20px;
+  }
+
+  .background_one {
+    background: none;
+  }
+
+  .background_three {
+    background: none;
+  }
+
+  .background_four {
+    background: none;
+  }
+
+  .background_five {
+    background: none;
+  }
+
+  .background_seven {
+    background: none;
+  }
+
+ 
+
+
+
+
+/* Header */
+
+  header {
+    justify-content: space-evenly;
+  }
+
+  .logo_position {
+    margin: 0;
+  }
+
+  .header_text_profile {
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+  .photo_config {
+    max-width: 350px;
+  }
+
+
+
+
+
+
+/* Home page */
+
+  .title {
+    right: 0;
+    top: 56px;
+  }
+
+  .introduction {
+    width: 400px;
+    padding-top: 224px;
+  }
+
+  .first_image {
+    width: 800px;
+  }
+
+  .background_one {
+    background: none;
+    flex-wrap: nowrap;
+  }
+
+
+  
+
+
+  .text_wrapper {
+    padding: 0 30px 30px 30px;
+  }
+
+  .title_six {
+    width: 100%;
+    text-align: center;
+  }
+
+  .subtitle_six {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* Page 7 */
+
+  .section_margin_seven {
+    margin: 0;
+    justify-content: inherit;
+
+  }
+
+
+
+  /* Page 10 */
+
+  .padd_top_tenth {
+    padding-top: 0;
+  }
+
+  .margin_center {
+    padding: 0 10px;
+  }
+  
+
+
+
+
+
+  /* .wrapper {
+    padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+  } */
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1100px) {
+  
+  .columns {
+    columns: 200px 3;
+    column-gap: 10px;
+    padding: 10px 0 10px 30px; 
+  }
+  
+}
+
+
+
+
+@media all and (max-width: 800px) {
+
+  .wrap {
+    flex-direction: column;
+  }
+
+  .title {
+    width: 100%;
+    position: relative;
+    padding: 20px 30px;
+    text-align: center;
+    right:auto;
+    top:auto;
+  }
+
+  .introduction {
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px 0;
+  }
+
+  .margin_tables {
+    padding: 0;
+    margin: 0;
+  }
+
+  .responsive_img {
+    margin: 0 auto;
+  }
+
+  .last_image_config {
+    margin-top: 30px;
+  }
+
+  header {
+    gap: 20px;
+  }
+
+  .logo_position {
+    padding-left: 15px;
+  }
+
+  .header_sasco_credo {
+    display: block;
+    margin-left: 0;
+  }
+
+  .main_title {
+    height: fit-content;
+  }
+
+  .main_title_l {
+    display: block;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+
+  .main_title_b {
+    display: block;
+    font-size: 30px;
+  }
+
+  .photo_config {
+    margin: 10px auto;
+  }
+
+ .block_between {
+   flex-direction: unset;
+   padding: 25px 15px 0 15px;
+   gap: 20px;
+ }
+
+ .columns {
+  padding: 15px 15px 15px 15px;
+ }
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 510px) {
+
+  .block_between {
+    flex-direction: column;
+  }
+  
+  .columns {
+    columns: unset;
+  }
+
+  p {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .article {
+    width: auto;
+  }
+
+
+  h3,
+  h4 {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .h3_position {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+}
