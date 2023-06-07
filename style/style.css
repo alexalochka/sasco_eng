@@ -9,9 +9,9 @@ body {
 
 
 
-.wrapper {
-  /* overflow: hidden; */
-}
+/* .wrapper {
+  overflow: hidden;
+} */
 
 
 
@@ -19,9 +19,14 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  height: 100px;
-  padding-bottom: 30px;
+  height: 80px;
+  padding-bottom: 5px;
   align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .logo_position {
@@ -521,10 +526,6 @@ footer {
     background: none;
   }
 
- 
-
-
-
 
 /* Header */
 
@@ -543,15 +544,9 @@ footer {
 
 
 
-
-
-
-
   .photo_config {
     max-width: 350px;
   }
-
-
 
 
 
@@ -578,8 +573,7 @@ footer {
   }
 
 
-  
-
+  /* Article */
 
   .text_wrapper {
     padding: 0 30px 30px 30px;
@@ -621,8 +615,6 @@ footer {
 
 
 
-
-
   /* .wrapper {
     padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
   } */
@@ -650,6 +642,27 @@ footer {
 
 
 @media all and (max-width: 800px) {
+
+  .logo_position {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .header_text_saudi {
+    text-align: center;
+  }
+
+  .header_text_profile {
+    text-align: center;
+  }
+
+  .menu_button {
+    width: 95px;
+  }
+
+  nav {
+    top: 52px;
+  }
 
   .wrap {
     flex-direction: column;
@@ -684,12 +697,13 @@ footer {
     margin-top: 30px;
   }
 
-  header {
-    gap: 20px;
+  .photo_config {
+    max-width: 100%;
   }
 
-  .logo_position {
-    padding-left: 15px;
+  header {
+    gap: 20px;
+    height: auto;
   }
 
   .header_sasco_credo {
@@ -727,7 +741,7 @@ footer {
  }
 
  .columns {
-  padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
  }
 
 }
@@ -738,7 +752,29 @@ footer {
 
 
 
+
+
 @media all and (max-width: 510px) {
+
+  header {
+    gap: 5px;
+  }
+
+  .logo_position {
+    padding-left: 10px;
+  }
+
+  .header_sasco_credo {
+    font-size: 14px;
+  }
+
+  .header_content {
+    display: none;
+  }
+
+  nav {
+    top: 34px;
+  }
 
   .block_between {
     flex-direction: column;
@@ -756,7 +792,6 @@ footer {
   .article {
     width: auto;
   }
-
 
   h3,
   h4 {
